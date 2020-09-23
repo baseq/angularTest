@@ -5,9 +5,9 @@ import { Observable, throwError, BehaviorSubject } from 'rxjs';
 import { tap, catchError, map } from 'rxjs/operators';
 
 declare let ChurnZero: any;
-const CHURNZERO_APPKEY = '1!Mn1wt4KqUiRkrxwJiysF6UWBJKcqHAahJ9RE-Ps11Ast912';
-const CHURNZERO_ACCOUNTEXTERNALID = '001300000009OgnAAE';
-const CHURNZERO_CONTACTEXTERNALID = 'dprey@marcom.com';
+const CHURNZERO_APPKEY = '123456789101112131'
+const CHURNZERO_ACCOUNTEXTERNALID = '123456789101112131';
+const CHURNZERO_CONTACTEXTERNALID = 'test@test.com';
 
 @Injectable({
   providedIn: 'root'
