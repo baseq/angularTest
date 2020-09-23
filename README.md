@@ -56,9 +56,6 @@ Logout action is active after logging in through user menu icon on the top right
 Credentials reside in `./login/login.service.ts`. Modify the following constants to change credentials:
 
 ``` javascript
-const CHURNZERO_APPKEY = '1!Mn1wt4KqUiRkrxwJiysF6UWBJKcqHAahJ9RE-Ps11Ast912';
-const CHURNZERO_ACCOUNTEXTERNALID = '001300000009OgnAAE';
-const CHURNZERO_CONTACTEXTERNALID = 'dprey@marcom.com';
 ```
 
 ## Product list page
