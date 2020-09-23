@@ -1,0 +1,26 @@
+[
+    {
+        "uuid": "0",
+        "userName": "admin",
+        "password": "admin",
+        "displayName": "Administrator",
+        "email": "admin@spr.ro",
+        "role": "administrator"
+    },
+    {
+        "uuid": "1",
+        "userName": "viewer",
+        "password": "viewer",
+        "displayName": "Viewer",
+        "email": "viewer@spr.ro",
+        "role": "viewer"
+    },
+    {
+        "uuid": "2",
+        "userName": "contrib",
+        "password": "contrib",
+        "displayName": "Contributor",
+        "email": "contrib@spr.ro",
+        "role": "contributor"
+    }
+]

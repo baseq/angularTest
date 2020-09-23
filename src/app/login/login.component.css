@@ -1,0 +1,46 @@
+.welcome-text {
+    margin-top: 30px;
+    font-weight: 300;
+    font-size: 3rem;
+}
+
+.login-box{
+    width: 400px;
+    min-height: 200px;
+    background: #fff;
+    padding: 2em;
+    border: 1px solid grey;
+    border-radius: 3%;
+  }
+  
+  .login-form{
+    margin-top: 2em;
+   
+  }
+  .login-form > * {
+    margin:0.5em 0;
+    width: 100%;
+    font-size: 1.1em;
+  }
+  
+  .login-link{
+    color:#fff;
+    display: inline-block;
+    margin-top: 2em;
+  }
+
+  .form-container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .spr-blue {
+    color: #0082C8;
+  }
+
+  .spr-grey {
+    color: grey;
+  }
+  

@@ -1,0 +1,107 @@
+.nav-link {
+    font-size: large;
+  }
+  
+  .usr-button {
+    background: url('../../assets/images/user_icon.svg') 0 30px;
+    filter: invert(68%) sepia(10%) saturate(257%) hue-rotate(178deg) brightness(88%) contrast(82%);
+    width: 30px;
+    height: 30px;
+    border: 0;
+    border-radius: 1px;
+    cursor: pointer;
+  }
+  
+  .usr-menu-container {
+    position: relative;
+  }
+  .usr-menu {
+    min-width: 179px;
+      max-width: 250px;
+      display: flex;
+      flex-direction: column;
+      top: 20px;
+      right: -6px;
+      align-items: center;
+      border: 1px solid #EEF1F5;
+      z-index: 1001;
+      background: #FFFFFF;
+      box-shadow: 2px 0 13px rgba(51,57,68,0.14);
+      position: absolute;
+      overflow: visible;
+      border-radius: 2px;
+      box-sizing: initial;
+      padding-bottom: 5px;
+      padding-top: 5px;
+  
+  }
+  
+  .usr-menu::before {
+    content:"";
+    position: absolute;
+    right: 10px;
+    top: -7px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 10px 10px 10px;
+    border-color: transparent transparent #ffffff transparent;
+  }
+  
+  .current-user {
+    color: #818895
+  }
+  
+  .separator {
+    height: 1px;
+    background: #DEDEEE;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 100%;
+  }
+
+  .logoutButton,
+  .logoutButton:focus,
+  .logoutButton:hover,
+  .logoutButton:active {
+    border: 0;
+    outline: 0;
+    padding: 0;
+    width: 100%;
+    background-color: transparent;
+    color: #4276F2;
+  }
+
+  .logoutButton:hover {
+    background-color: #F3F8FA;
+  }
+  .usr-button {
+    margin-left: 8px;
+    vertical-align: bottom;
+  }
+
+  .connectionStatus{
+    font-size: 15px;
+    color:grey;
+    vertical-align: bottom;
+  }
+  .dot-connected{
+    margin-left: 3px;
+    height: 12px;
+    width: 12px;
+    background-color: #5dbb72;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .dot-disconnected{
+    margin-left: 3px;
+    height: 12px;
+    width: 12px;
+    background-color: #f04949;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+  }

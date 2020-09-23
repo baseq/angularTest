@@ -1,0 +1,29 @@
+<div class="form-container">
+    <div class="login-box">
+
+       <h4><span class="spr-blue">Saguaro</span>&nbsp;<span class="spr-grey">Assets Management</span></h4>
+  
+      <form (ngSubmit)="onSubmit()" class="login-form" #loginForm="ngForm">
+          <div [hidden]="!errorMessage" class="alert alert-danger">{{errorMessage}}</div>
+          <input type="text"
+                 [(ngModel)]="user.userName"
+                 name = "userName"
+                 class="form-control"
+                 id="userName"
+                 placeholder="user name"
+                 required>
+  
+          <input type="password"
+                 [(ngModel)]="user.password"
+                 name= "password"
+                 class="form-control"
+                 placeholder="password"
+                 id="password"
+                 required>
+  
+          <button class="primary"
+                  [disabled]="(loginForm.invalid && loginForm.submitted)"
+                  type="submit">login</button>
+      </form>
+    </div>
+  </div>

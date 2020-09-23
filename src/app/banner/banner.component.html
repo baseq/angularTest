@@ -1,0 +1,17 @@
+﻿<nav class='navbar navbar-expand navbar-light bg-light'>
+  <a class='navbar-brand'>{{pageTitle}}</a>
+  <div>
+    <span class='connectionStatus'>ChurnZero status </span>
+    <div [ngClass]="churnConnectionStatus ? 'dot-connected': 'dot-disconnected'"></div>
+  </div>  
+  
+  <div class="item ml-auto">
+    Hi, <span class="current-user">{{currentUser?.displayName}}</span>
+    <button class='usr-button' (click)="userMenuClickHandler($event)"></button>
+    <div *ngIf="showUserMenu" class="usr-menu-container">
+      <div #userMenuElement class="usr-menu">
+        <button class="logoutButton" (click)="logout()">Logout</button>
+      </div>
+    </div>
+  </div>
+</nav>
